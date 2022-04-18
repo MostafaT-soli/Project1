@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS Guilds (
+   ...> id INTEGER PRIMARY KEY,
+   ...> Guild_Name TEXT NOT NULL,
+   ...> Guild_ID TEXT NOT NULL UNIQUE,
+   ...> Channel_Name TEXT,
+   ...> Channel_ID TEXT UNIQUE,
+   ...> Wallet TEXT );
